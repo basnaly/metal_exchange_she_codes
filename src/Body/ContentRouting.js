@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate, Switch } from "react-router-dom";
 
-import ChartComponent from "./Body/ChartComponent";
-import AboutComponent from "./Body/AboutComponent";
-import ContactComponent from "./Body/ContactComponent";
+import ChartComponent from "./ChartComponent";
+import AboutComponent from "./AboutComponent";
+import ContactComponent from "./ContactComponent";
 
 const ContentRouting = () => {
 

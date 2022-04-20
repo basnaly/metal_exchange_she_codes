@@ -23,7 +23,6 @@
   margin: 10px;
 }
 
-
 .App-link {
   color: #61dafb;
 }
@@ -58,7 +57,6 @@
 
 .source-about {
   margin: 20px 0 10px 10px;
-  
   font-weight: bold;
 }
 
@@ -79,8 +77,7 @@
 
 .footer-link {
   font-size: 22px;
-  margin: 10px;
-  
+  margin: 10px; 
 }
 
 .pointer {
@@ -89,4 +86,8 @@
 
 .chart {
   margin: 10px 5px;
+}
+
+.chart-div {
+  resize: both;
 }

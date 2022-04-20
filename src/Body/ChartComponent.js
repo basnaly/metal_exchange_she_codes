@@ -100,7 +100,7 @@ const ChartComponent = () =>{
     }
 
     return (
-        <div className="overflow-auto d-flex flex-column p-2">
+        <div className="chart-div overflow-auto d-flex flex-column p-2">
             <Chart type='line' data={ chartData } options={ options } 
             className='chart'/>
         </div>    

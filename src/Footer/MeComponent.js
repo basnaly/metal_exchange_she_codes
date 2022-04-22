@@ -14,8 +14,10 @@ const Me = () => {
 
     return (
         
-        <img style={ styles.me }
-            src='https://github.com/basnaly/roman_numeric_converter/raw/main/my-photo.png'/>
+        <img data-testid="sign-element" 
+            style={ styles.me }
+            src='https://github.com/basnaly/roman_numeric_converter/raw/main/my-photo.png'
+        />
     )
 }
 

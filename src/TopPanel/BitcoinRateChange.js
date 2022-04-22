@@ -31,7 +31,8 @@ const BitcoinRateChange = (props) => {
     }
 
     return(
-        <div className="pointer d-flex flex-column align-items-center p-2 m-1 border flex-grow-1"
+        <div data-testid="bitcoin-element"
+            className="pointer d-flex flex-column align-items-center p-2 m-1 border flex-grow-1"
             onClick={ onClick }>
             <div className="d-flex align-items-center">
                 <div className="d-flex align-items-center">
@@ -43,7 +44,8 @@ const BitcoinRateChange = (props) => {
                     { bitcoinTodayValue  }
                 </div>
             </div>
-            <div className="d-flex align-items-center"
+            <div data-testid="bitcoin-color-element"
+                className="d-flex align-items-center"
                 style={ { color } }>
                 <div className="d-flex align-items-center">
                     { symbol }{ displayPercent }%

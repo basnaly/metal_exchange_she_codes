@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
 import TopPanel from "./TopPanel/TopPanel";
-import Me from "./Footer/Me";
+import MeComponent from "./Footer/MeComponent";
 import NameLogoComponent from "./Body/NameLogoComponent";
 import ContentRouting from "./Body/ContentRouting";
 import FooterComponent from "./Footer/FooterComponent";
@@ -20,7 +20,7 @@ const AppTrade = () => {
                 <ContentRouting />
                 <FooterComponent />
                 <ChartRequest />
-                <Me />
+                <MeComponent />
             </Router>
         </div>
     )

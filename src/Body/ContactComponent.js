@@ -21,8 +21,8 @@ const ContactComponent = () => {
         if (!name) {
             error = 'Name cannot be blank';
         }
-        else if (name.length < 4) {
-            error = "Name must have at least 4 symbols";
+        else if (name.length < 3) {
+            error = "Name must have at least 3 symbols";
         }
 
         else if (!subject) {
@@ -140,7 +140,8 @@ const ContactComponent = () => {
                     />
                 </InputGroup>
 
-                <div style={{ fontSize: 12, color: 'red' }}>
+                <div data-testid="error-element"
+                    style={{ fontSize: 12, color: 'red' }}>
                     {error}
                 </div>
 

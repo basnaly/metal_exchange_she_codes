@@ -12,7 +12,8 @@ const NameLogoComponent = () => {
         <div className="d-flex name-logo">
             <Link onClick={ () => dispatch(ChangeCurrentCurrency(GOLD, SILVER)) }
                 to="/home">
-                <img className="icon" src="/metal-icon.png" />
+                <img data-testid="logo-element"
+                    className="icon" src="/metal-icon.png" />
             </Link>
 
             <div className="name d-flex">

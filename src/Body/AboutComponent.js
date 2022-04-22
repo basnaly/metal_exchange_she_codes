@@ -5,7 +5,8 @@ const AboutComponent = () =>{
     return (
         <div className="about d-flex flex-column">
             
-            <div className="title-about">
+            <div data-testid="about-element" 
+                className="title-about">
                 About Precious metals
             </div>
             <div className="border-about"></div>
@@ -20,8 +21,11 @@ const AboutComponent = () =>{
                 and industrial commodities. Gold, silver, platinum, 
                 and palladium each have an ISO 4217 currency code.
             </div>
-            <img className="metals-about" src="/edel-metal.jpeg" />
-            <div className="text-about">
+            <img data-testid="img-element" 
+                className="metals-about" 
+                src="/edel-metal.jpeg" />
+            <div data-testid="text-element"
+                className="text-about">
                 The best known precious metals are the coinage metals,
                 which are gold and silver. Although both have 
                 industrial uses, they are better known for their uses 
@@ -52,12 +56,12 @@ const AboutComponent = () =>{
                 Sources:
             </div>
             
-            <a className="href-about"
+            <a role="link" className="href-about"
                 href='https://en.wikipedia.org/wiki/Precious_metal'>
                 The article is from Wikipedia 
             </a>
             
-            <a className="href-about"
+            <a role="link" className="href-about"
                 href='https://commons.wikimedia.org/w/index.php?curid=1740953'>
                 The photo made by: Tomihahndorf, CC BY-SA 3.0,  
             </a>    

@@ -6,7 +6,10 @@ const FooterComponent = () =>{
 
     return (
         <div className="footer d-flex mt-auto">
-            <div className="footer-link">@2020 PMT C°</div>
+            <div data-testid="footer-element"
+                className="footer-link">
+                    @2020 PMT C°
+            </div>
             <NavigationComponent />
             
         </div>
